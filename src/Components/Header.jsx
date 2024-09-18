@@ -1,12 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import logo from '../assets/images/logo.png';
 import logoBlue from '../assets/images/logo_blue.png';
-
-import { FaLinkedin } from "react-icons/fa";
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaInstagramSquare } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-
+import { FaLinkedin, FaFacebookSquare, FaInstagramSquare, FaTwitter } from "react-icons/fa";
 import { IoIosMenu, IoMdClose } from "react-icons/io";
 
 function Header() {
@@ -74,13 +69,13 @@ function Header() {
               <li className='hover:text-orange-500 cursor-pointer text-lg'>Contact Us</li>
               <li className='hover:text-orange-500 cursor-pointer text-lg'>Blogs</li>
             </ul>
-            
-              <div className="flex gap-4 mt-6 ">
-                <FaFacebookSquare size={30} />
-                <FaInstagramSquare size={30} />
-                <FaLinkedin size={30} />
-                <FaTwitter size={30} />
-              </div>
+
+            <div className="flex gap-4 mt-6">
+              <FaFacebookSquare size={30} />
+              <FaInstagramSquare size={30} />
+              <FaLinkedin size={30} />
+              <FaTwitter size={30} />
+            </div>
           </nav>
         </div>
       </div>
